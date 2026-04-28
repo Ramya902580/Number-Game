@@ -1,0 +1,111 @@
+🎮 Game
+The program generates a random numb, and th
+
+🔍 Step-b
+
+
+The program starts by creating a Scanner object
+
+
+It generates a random number using Math.random():
+
+
+(int)(Math.random()*100)+1*1 and 100.*
+
+
+
+
+The player is given 10 ch to
+
+
+
+🔁
+
+
+The game runs inside a loop (while(play)),
+
+
+Inside this, another loop runs until the player guesses
+
+
+The user is asked to ent
+
+
+The number of remaining chances is reduced by 1 after each gues
+
+
+
+
+
+📊 Conditions
+
+
+If the guessed number is less than the random number:
+
+
+The program displays: "Too low try again!"
+
+
+
+
+If the guessed number is greater than the random number:
+
+
+The program displays: "Too high try again!"
+
+
+
+
+If the guessed number is correct:
+
+
+The program displays a congratulatory message.
+
+
+It also shows the score, which is the number of chances left.
+
+
+
+
+
+⚠️ Important Note
+
+
+The variable play is always true, so the outer loop will run forever.
+
+
+Also, there is no condition to stop the game when chances reach 0, so the user could keep guessing even after using all chances.
+
+
+
+🧠 Summary
+This game:
+
+
+Picks a random number
+
+
+Lets the user guess it
+
+
+Gives hints (too high / too low)
+
+
+Tracks remaining chances
+
+
+Ends only when the correct number is guessed (but not when chances run out)
+
+
+
+If you want, I can help you improve this game by:
+
+
+Ending the game after 10 chances
+
+
+Adding a replay option
+
+
+Showing better scoring system 👍
+
